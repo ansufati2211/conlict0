@@ -3,7 +3,7 @@ import java.net.*;
 
 public class Servidor {
     public static void main(String[] args) {
-        int puerto = 5000; 
+        int port = 4999; 
 
         try (ServerSocket serverSocket = new ServerSocket(puerto)) {
             System.out.println("Servidor iniciado. Esperando conexión en el puerto " + puerto + "...");
